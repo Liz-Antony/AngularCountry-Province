@@ -1,0 +1,21 @@
+{
+    "country":{
+        "name": "Canada",
+        "capital": "Ottawa",
+        "code": "CAN",
+        "currency": "CAD",
+        "population": 36000000
+        },
+        "provinces":[
+            {"name": "Ontario", "capital": "Toronto", "population": 15109416, "code": "ON", "majorCities":["Toronto", "Ottawa","Mississauga","Hamilton"]},
+            {"name": "Quebec", "capital": "Quebec City", "population": 8695659, "code": "QC","majorCities":["Monteral", "Quebec City","Gatineau"]},
+            {"name": "Nova Scotia", "capital": "Halifax", "population": 1019725, "code": "NS","majorCities":["Halifax", "Sydney","Digby"]},
+            {"name": "New Brunswick", "capital": "Fredricton", "population": 812061, "code": "NB","majorCities":["Bathurst", "Fredricton","Campbellton"]},
+            {"name": "Manitoba", "capital": "Winnipeg", "population": 1409223, "code": "MB","majorCities":["Steinbach", "Winnipeg","Thompson"]},
+            {"name": "Prince Edward Island", "capital": "Charlottetown", "population": 170688, "code": "PE","majorCities":["Charlottetown", "Belfast"]},
+            {"name": "Saskatchewan", "capital": "Regina", "population": 1194803, "code": "SK","majorCities":["Regina", "Saskatoon","Melville"]},
+            {"name": "Alberta", "capital": "Edmonton", "population": 4543111, "code": "AB","majorCities":["Calgary", "Edmonton","Red Deer"]},
+            {"name": "New Foundland & Labrador", "capital": "St.John's", "population": 510550, "code": "NL","majorCities":["St.John's", "Corner Brook","Gander"]},
+            {"name": "British Columbia", "capital": "Victoria", "population": 5319324,"code":"BC", "majorCities":["Vancouver", "Victoria","Kelowna"]}
+        ]
+}

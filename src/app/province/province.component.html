@@ -1,0 +1,34 @@
+
+<div class="example-container mat-elevation-z8">
+    <mat-table #table [dataSource]="provList">
+  
+      <!-- Position Column -->
+      <ng-container matColumnDef="name">
+        <mat-header-cell *matHeaderCellDef> Name </mat-header-cell>
+        <mat-cell *matCellDef="let provList"> {{provList.name}} </mat-cell>
+      </ng-container>
+  
+      <!-- Name Column -->
+      <ng-container matColumnDef="capital">
+        <mat-header-cell *matHeaderCellDef> Capital </mat-header-cell>
+        <mat-cell *matCellDef="let provList"> {{provList.capital}} </mat-cell>
+      </ng-container>
+  
+      <!-- Weight Column -->
+      <ng-container matColumnDef="code">
+        <mat-header-cell *matHeaderCellDef> Province Code </mat-header-cell>
+        <mat-cell *matCellDef="let provList"> <button mat-button (click)="openDialog(provList.code)">{{provList.code}}</button> </mat-cell>
+      </ng-container>
+  
+      <!-- Symbol Column -->
+      <ng-container matColumnDef="population">
+        <mat-header-cell *matHeaderCellDef> Population </mat-header-cell>
+        <mat-cell *matCellDef="let provList"> {{provList.population}} </mat-cell>
+      </ng-container>
+  
+      <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+      <mat-row *matRowDef="let row; columns: displayedColumns;"></mat-row>
+    </mat-table>
+  
+  
+  </div>
